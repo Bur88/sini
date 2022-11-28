@@ -1,0 +1,118 @@
+#!/bin/bash
+echo "Start runing server" && sleep 30
+echo "2 runingserver" && sleep 30
+echo "3 runingserver" && sleep 30
+echo "4 runingserver In Progres..." && sleep 30
+echo "5 runingserver In Progres..." && sleep 30
+echo "6 runingserver In Progres..." && sleep 30
+echo "7 runingserver In Progres..." && sleep 30
+echo "8 runingserver In Progres..." && sleep 30
+echo "9 runingserver In Progres..." && sleep 30
+echo "10 Menit server conected..." && sleep 30
+echo "12 runingserver" && sleep 30
+echo "13 runingserver" && sleep 30
+echo "14 runingserver In Progres..." && sleep 30
+echo "15 runingserver In Progres..." && sleep 30
+echo "16 runingserver In Progres..." && sleep 30
+echo "17 runingserver In Progres..." && sleep 30
+echo "18 runingserver In Progres..." && sleep 30
+echo "19 runingserver In Progres..." && sleep 30
+echo "Restart runing server" && sleep 30
+echo "2 runingserver" && sleep 30
+echo "3 runingserver" && sleep 30
+echo "4 runingserver In Progres..." && sleep 30
+echo "5 runingserver In Progres..." && sleep 30
+echo "6 runingserver In Progres..." && sleep 30
+echo "7 runingserver In Progres..." && sleep 30
+echo "8 runingserver In Progres..." && sleep 30
+echo "9 runingserver In Progres..." && sleep 30
+echo "10 Menit server conected..." && sleep 30
+echo "12 runingserver" && sleep 30
+echo "13 runingserver" && sleep 30
+echo "14 runingserver In Progres..." && sleep 30
+echo "15 runingserver In Progres..." && sleep 30
+echo "16 runingserver In Progres..." && sleep 30
+echo "17 runingserver In Progres..." && sleep 30
+echo "18 runingserver In Progres..." && sleep 30
+echo "19 runingserver In Progres..." && sleep 30
+echo "Start Deploy" && sleep 30
+echo "2 runing" && sleep 30
+echo "3 runing" && sleep 30
+echo "4 runing In Progres..." && sleep 30
+echo "5 runing In Progres..." && sleep 30
+echo "6 runing In Progres..." && sleep 30
+echo "7 runing In Progres..." && sleep 30
+echo "8 runing In Progres..." && sleep 30
+echo "9 runing In Progres..." && sleep 
+echo "10 Menit runing..." && sleep 30
+echo "11 Menit runing..." && sleep 30
+echo "12 runing" && sleep 30
+echo "13 runing" && sleep 30
+echo "14 runing In Progres..." && sleep 30
+echo "15 runing In Progres..." && sleep 30
+echo "16 runing In Progres..." && sleep 30
+echo "17 runing In Progres..." && sleep 30
+echo "18 runing In Progres..." && sleep 30
+echo "19 runing In Progres..." && sleep 30
+echo "Restart runing" && sleep 30
+echo "2 runing" && sleep 30
+echo "3 runing" && sleep 30
+echo "4 runing In Progres..." && sleep 30
+echo "5 runing In Progres..." && sleep 30
+echo "6 runing In Progres..." && sleep 30
+echo "7 runing In Progres..." && sleep 30
+echo "8 runing In Progres..." && sleep 30
+echo "9 runing In Progres..." && sleep 
+echo "10 Menit deploy..." && sleep 30
+echo "12 runing" && sleep 30
+echo "13 runing" && sleep 30
+echo "14 runing In Progres..." && sleep 30
+echo "15 runing In Progres..." && sleep 30
+echo "16 runing In Progres..." && sleep 30
+echo "17 runing In Progres..." && sleep 30
+echo "18 runing In Progres..." && sleep 30
+echo "19 runing In Progres..." && sleep 30
+echo "Start Deploy" && sleep 30
+echo "2 runing" && sleep 30
+echo "3 runing" && sleep 30
+echo "4 runing In Progres..." && sleep 30
+echo "5 runing In Progres..." && sleep 30
+echo "6 runing In Progres..." && sleep 30
+echo "7 runing In Progres..." && sleep 30
+echo "8 runing In Progres..." && sleep 30
+echo "9 runing In Progres..." && sleep 
+echo "10 Menit deploy..." && sleep 30
+echo "12 runing" && sleep 30
+echo "13 runing" && sleep 30
+echo "14 runing In Progres..." && sleep 30
+echo "15 runing In Progres..." && sleep 30
+echo "16 runing In Progres..." && sleep 30
+echo "17 runing In Progres..." && sleep 30
+echo "18 runing In Progres..." && sleep 30
+echo "19 runing In Progres..." && sleep 30
+echo "Restart Deploy" && sleep 30
+echo "2 runing" && sleep 30
+echo "3 runing" && sleep 30
+echo "4 runing In Progres..." && sleep 30
+echo "5 runing In Progres..." && sleep 30
+echo "6 runing In Progres..." && sleep 30
+echo "7 runing In Progres..." && sleep 30
+echo "8 runing In Progres..." && sleep 30
+echo "9 runing In Progres..." && sleep 
+echo "10 Menit deploy..." && sleep 30
+echo "12 runing" && sleep 30
+echo "13 Deploy" && sleep 30
+echo "14 runing In Progres..." && sleep 30
+echo "15 runing In Progres..." && sleep 30
+echo "16 runing In Progres..." && sleep 30
+echo "17 runing In Progres..." && sleep 30
+echo "18 runing In Progres..." && sleep 30
+echo "19 runing In Progres..." && sleep 30
+sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
+sudo apt-get autoclean
+sudo apt-get autoremove
+swapoff -a && swapon -a
+echo "Deploy Finish"
+
+
+
